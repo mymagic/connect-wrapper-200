@@ -1,0 +1,21 @@
+{
+    "name": "mymagic/connect",
+    "description": "MaGIC Connect 2.0 connector",
+    "type": "package",
+    "require": {
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MyMagic\\Connect\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rosaan Ramasamy",
+            "email": "rosaan@mymagic.my"
+        }
+    ],
+    "minimum-stability": "stable"
+}
