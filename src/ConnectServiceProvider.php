@@ -18,7 +18,7 @@ class ConnectServiceProvider extends ServiceProvider{
     }
 
     public function provides(){
-        return 'MyMagic\Connect';
+        return ['MyMagic\Connect'];
     }
 
 }
