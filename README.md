@@ -21,10 +21,14 @@ Then add this providers to config/app.php :
                   'Connect' => MyMagic\Connect\Facades\Connect::class,
           
               ],
-
-      ```
+```
+      
+      
       
       Now, we you fetch the data from MaGIC Connect API : 
+      
+      
+      
 
 ```php
 use Connect;
