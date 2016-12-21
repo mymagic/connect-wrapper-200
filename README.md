@@ -22,14 +22,8 @@ Then add this providers to config/app.php :
           
               ],
 ```
+Now, we you fetch the data from MaGIC Connect API : 
       
-      
-      
-      Now, we you fetch the data from MaGIC Connect API : 
-      
-      
-      
-
 ```php
 use Connect;
 
@@ -39,4 +33,11 @@ Connect::getLastName(); // Get users last name
 Connect::getAvatar(); // Get users avatar
 Connect::getEmail(); // Get users email address
 Connect::getGender(); // Get users gender
+```
+Don't forget to add this in .env file. Get the client ID and client Secret from MaGIC Connect 2.0
+```php
+CONNECT_SERVER=
+CONNECT_CLIENT=
+CONNECT_CLIENT_ID=
+CONNECT_CLIENT_SECRET=
 ```
